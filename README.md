@@ -1,7 +1,7 @@
 # shop
 ### tech stack:
 - Flask 
-- SQLite (or postgresql)
+- Flask-SQLAlchemy (sqlite)
 
 ### Tasks:
 - [ ] make a description of the project
