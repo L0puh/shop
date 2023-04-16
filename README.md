@@ -2,7 +2,7 @@
 ### tech stack:
 - Flask 
 - Flask-SQLAlchemy (sqlite)
-
+- Flask-WTForms
 ### Tasks:
 - [ ] make a description of the project
 
