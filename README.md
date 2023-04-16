@@ -1,8 +1,8 @@
 # shop
 ### tech stack:
 - Flask 
-- SQLite (or postgresql)
-
+- Flask-SQLAlchemy (sqlite)
+- Flask-WTForms
 ### Tasks:
 - [ ] make a description of the project
 
