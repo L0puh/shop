@@ -8,5 +8,4 @@ def login_user(name, email, password, repeat_password):
             db.session.commit()
             return True
         except:
-            print('smt went wrong')
             return False

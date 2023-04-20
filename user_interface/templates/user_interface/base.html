@@ -9,7 +9,13 @@
 </head>
 <body>
 {% block content %}
-
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+    <h2 class='{{category}}'>{{ message }}</h2>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
 {% endblock%}
 </body>
 </html>
