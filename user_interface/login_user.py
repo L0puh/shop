@@ -9,3 +9,8 @@ def login_user(name, email, password, repeat_password):
             return True
         except:
             return False
+
+def logout_user(session):
+    if 'username' in session:
+        session.pop('username', None)
+    return True
